@@ -32,9 +32,9 @@ public class CarManufacturer {
     String car10 = "TOYOTA";
     String car11= "NISSAN";
     String car12= "Ford";
-        if (mycar==car1)
-    System.out.println("My car is a " + car1);
-        if (mycar==car2)
+        if (mycar.equals("ACURA"))
+    System.out.println("My car is a " + "ACURA");
+        if (mycar.equals(""))
     System.out.println("My car is a " + car2);
         if (mycar==car3)
     System.out.println("My car is a " + car3);
