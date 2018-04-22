@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor. To share files between desktop computer and laptop,
 *  dad created a github repository and saved and pulled from git
- * https://github.com/albertwufamily/yusprj_git.git 
+ * https://github.com/albertwufamily/yusprj_git.git
+ * Edited on 4/22/2018
  */
 package If_statments;
 
