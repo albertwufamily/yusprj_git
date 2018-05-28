@@ -13,7 +13,7 @@ package Switch_Statements;
  */
 public class supermarket {
     public static void main (String [] args){
-    int items = 4;
+    int items = 9;
     switch(items){
         case 0: case 1: case 2: case 3: case 4:
             System.out.println("lane 1");
