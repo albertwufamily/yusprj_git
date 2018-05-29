@@ -29,16 +29,19 @@ name their sons by doing the same with the boy name constants.*/
          String child1=daughter1;
          String child2=daughter2;
          String child3=daughter3;
+         String header = "Daughters";
         while (x<=2)
-        {System.out.println(friend1+" your child could be called "+ child1);
-        System.out.println(friend2+" your child could be called "+ child2);
-        System.out.println(friend3+" your child could be called "+ child3);
+        {System.out.println(header);
+        System.out.println(changefriend1+" your child could be called "+ child1);
+        System.out.println(changefriend2+" your child could be called "+ child2);
+        System.out.println(changefriend3+" your child could be called "+ child3);
         child1=son1;
-        child1=son2;
-        child1=son3;     
+        child2=son2;
+        child3=son3;     
         changefriend1 = friend4;
         changefriend2 = friend5;
         changefriend3 = friend6;
+        header="Sons";
         x++;
         }
     }       
