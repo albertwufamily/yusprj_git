@@ -20,31 +20,31 @@ public class reminders {
                 switch (m) {
                     case 1:
                         if (d == 1) {
-                            System.out.println("its new year's day");
+                            System.out.println("it is "+m+", "+d+" its new year's day");
                         }
                         break;
                     case 2:
                         if (d == 2) {
-                            System.out.println("its groundhogs day");
+                            System.out.println("it is "+m+", "+d+" its groundhogs day");
                         } else if (d == 14) {
-                            System.out.println("its valentines day");
+                            System.out.println("it is "+m+", "+d+" its valentines day");
                         }
                         break;
                     case 3:
                         if (d == 14) {
-                            System.out.println("its time for the wedding anniversary");
+                            System.out.println("it is "+m+", "+d+" its time for the wedding anniversary");
                         } else if (d == 15) {
-                            System.out.println("its time for my mothers birthday");
+                            System.out.println("it is "+m+", "+d+" its time for my mothers birthday");
                         }
                         break;
                     case 7:
                         if (d == 4) {
-                            System.out.println("its independence day");
+                            System.out.println("it is "+m+", "+d+" its independence day");
                         }
                         break;
                     case 10:
                         if (d == 1) {
-                            System.out.println("its Halloween");
+                            System.out.println("it is "+m+", "+d+" its Halloween");
                         }
                         break;
                 }
