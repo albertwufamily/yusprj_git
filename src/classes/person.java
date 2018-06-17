@@ -23,6 +23,9 @@ public class person
     p2.name="Aaron";
     p2.ssn=456;
     p3.name="Albert";
-    p3.ssn=789;//
+    p3.ssn=789;
+    System.out.println(p1);
+    System.out.println(p2);
+    System.out.println(p3);
     }
 }

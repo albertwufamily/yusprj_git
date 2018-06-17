@@ -41,5 +41,5 @@ public class property_maintenence {
         {
         System.out.println(income);
         }
-    public static void print_snow_report ()
+
 }
