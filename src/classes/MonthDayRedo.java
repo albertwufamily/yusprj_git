@@ -16,6 +16,15 @@ public class MonthDayRedo {
     void compute ()
     {
     value = month *32+day;
+    System.out.println(value);
     }
-    void
+    void validate (){
+            if (1<=month && month<=12)
+            {
+            if (1<=day && day<=31)
+            {
+            compute ();
+            }
+            }
+    }
 }
